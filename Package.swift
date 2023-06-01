@@ -21,9 +21,6 @@ let package = Package(
         .target(
             name: "ALRDTransitXProvider",
             dependencies: []),
-        .binaryTarget(name: "ALRDTransitX", path: "ALRDTransitX.xcframework"),
-        .testTarget(
-            name: "ALRDTransitXProviderTests",
-            dependencies: ["ALRDTransitXProvider"]),
+        .binaryTarget(name:"ALRDTransitX", path: "ALRDTransitX.xcframework")
     ]
 )
