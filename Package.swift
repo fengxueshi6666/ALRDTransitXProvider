@@ -21,6 +21,6 @@ let package = Package(
         .target(
             name: "ALRDTransitXProvider",
             dependencies: []),
-        .binaryTarget(name: "ALRDTransitX", url: "https://github.com/fengxueshi6666/FileResources/raw/main/ALRDTransitX%2022.15.41.xcframework.zip", checksum: "c6aa0ea26c8c0ed18576623c5682e315b9f7d9ad24963d731e4a3d4d0ba9266a")
+        .binaryTarget(name: "ALRDTransitX", url: "https://github.com/fengxueshi6666/FileResources/raw/main/ALRDTransitX.xcframework.zip", checksum: "3677ea82da8ba8a340c1aba7fd1e02c966255798ead693ca80af3016de48dc32")
     ]
 )
